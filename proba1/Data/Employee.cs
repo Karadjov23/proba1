@@ -18,7 +18,7 @@ namespace proba1.Data
         public string Email { get; set; }
         public string Image { get; set; }
         public string EmployeersPosition { get; set; }
-        [ForeignKey("EmployeeId")]
+       
         public ICollection<Signal> Signals { get; set; }
     }
 }
